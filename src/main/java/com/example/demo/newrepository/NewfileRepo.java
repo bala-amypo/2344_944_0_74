@@ -1,4 +1,6 @@
-import org.springframework.data.jpa.reposi
+package com.example.demo.newrepository;
+
+import org.springframework.data.jpa.reposiitory.JpaRepository;
 
 import com.example.demo.newentity.NewfileEntity;
 
