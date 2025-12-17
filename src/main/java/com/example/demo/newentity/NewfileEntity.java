@@ -1,4 +1,6 @@
 public class NewfileEntity{
     @Id
-    @GeneratedValue()
+    @GeneratedValue(strategy=GenerationType.Identity)
+    private Long id;
+    
 }
